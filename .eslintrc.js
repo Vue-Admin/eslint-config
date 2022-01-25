@@ -25,7 +25,7 @@ module.exports = {
     ],
     'newline-per-chained-call': [2, { ignoreChainWithDepth: 1 }],
     'no-prototype-builtins': 'off',
-    'prefer-template': 2,
+    'prefer-template': 'error',
 
     'vue/component-name-in-template-casing': [
       'error',
@@ -92,6 +92,6 @@ module.exports = {
       },
     ],
     'vue/no-v-html': 'off',
-    'vue/prefer-template': 2,
+    'vue/prefer-template': 'error',
   },
 };
